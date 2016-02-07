@@ -1,0 +1,18 @@
+Af hverju ættir þú að nota OOP í PHP? Hvenær væri það hugsanlega heppilegt og hvenær ekki. 
+	Það þarf ekki að vera OOP þegar það er mjög lítil síða en þegar það kemur að stærri síðum byrjar það að vera þörf.
+
+Hver er munurinn á procedural programming og OOP. Komdu með dæmi og rökstuðning.
+	Procedural programming notar fullt af variables, data structures og subroutines á meðan OOP notar object með methods og nota interfaces. 
+
+Hver er munurinn á public og private members þegar kemur að:
+	a) Property
+		Public properties geta verið náð í fyrir utan class-ins á object-inu en private geta bara verið notuð innan þess og geta einnig ekki verið inherit-uð.
+	b) Methods
+		Public methods geta verið call-uð fyrir utan class-ins á object-inu en private geta bara verið call-uð innan þess og geta einnig ekki verið inherit-uð.
+
+Hvað er namespaces og Autoloading?
+	Namespaces eru notuð til að losna við conflicts á nöfnum á class-um og öðru.
+	Autoloading er notað til að gera hluti einfaldari með því að nota composer og ekki þurfa nota require fyrir hvert einasta file, composer-inn load-ar öllum file-onum fyrir þig.
+
+Útskýrðu Interfaces.
+	Interfaces eru til að þú getur notað mismunandi class sem hafa sömu methods.
